@@ -393,7 +393,6 @@ document.getElementById("tina").addEventListener("click" , ()=>{
     updateShown("tina");
     update(txt)
 });
-
 document.getElementById("noah").addEventListener("click" , ()=>{
     txt = `<header>
     <i id="reflip" class="fa-solid fa-arrow-left"></i>
