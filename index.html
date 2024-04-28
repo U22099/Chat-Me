@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Me</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="script/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/ce134ae05f.js" crossorigin="anonymous"></script>
+</head>
+<body style="
+--primary-color: linear-gradient(to right, #ac0187, #fc07db);
+--background: rgb(53, 4, 54);
+--theme: rgb(53, 4, 54);
+--text-theme: white;">
+    <div class="container">
+        <header class="header">
+            <h1>Chat Me</h1>
+        </header>
+        <main class="content">
+            <section class="left-container">
+                <header class="header">
+                    <h1>Chats</h1>
+                    <div class="searchBar">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </header>
+                <div class="chat show" id="cli">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""> <p></p></div>
+                    <div class="info">
+                        <h1>Climax</h1>
+                        <p class="txt">Ok nah</p>
+                    </div>
+                </div>
+                <div class="chat" id="abd">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""> <p></p></div>
+                    <div class="info">
+                        <h1>Abdullah</h1>
+                        <p class="txt">Nice Work...</p>
+                    </div>
+                </div>
+                <div class="chat" id="cain">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""> <p></p></div>
+                    <div class="info">
+                        <h1>Cain</h1>
+                        <p class="txt">Abeg..</p>
+                    </div>
+                </div>
+                <div class="chat" id="bs">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""></div>
+                    <div class="info">
+                        <h1>Big Sam</h1>
+                        <p class="txt">I dey bro</p>
+                    </div>
+                </div>
+                <div class="chat" id="no">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""> <p></p></div>
+                    <div class="info">
+                        <h1>+2349023343423</h1>
+                        <p class="txt">Hi</p>
+                    </div>
+                </div>
+                <div class="chat" id="tina">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""></div>
+                    <div class="info">
+                        <h1>Tina</h1>
+                        <p class="txt">💚</p>
+                    </div>
+                </div>
+                <div class="chat" id="noah">
+                    <div class="img"><img src="images/IMG2.JPG" alt=""></div>
+                    <div class="info">
+                        <h1>Noah</h1>
+                        <p class="txt">Okay nah</p>
+                    </div>
+                </div>
+            </section>
+            <section class="right-container" id="chatbox">
+                <header>
+                    <i id="reflip" class="fa-solid fa-arrow-left"></i>
+                    <div class="info">
+                        <img src="images/IMG2.JPG" alt="">
+                        <div>
+                            <h1 class="name">Climax</h1>
+                            <p class="txt">online</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-video"></i>
+                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+                    </div>
+                    <div class="action-small">
+                        <i class="actionToggle fa-solid fa-bars"></i>
+                        <!-- fa-solid fa-xmark -->
+                        <div class="action" id="action">
+                            <h2>Call</h2>
+                            <h2>Video Call</h2>
+                            <h2 class="mode">Switch mode</h2>
+                        </div>
+                    </div>
+                </header>
+                <main class="body">
+                    <div class="encMsg">
+                        <h1>Thursday</h1>
+                        <p class="txt">
+                            Messages and call are end-to-end  encrypted. No one outside of this chat, not even Chat-Me, can read or listen to them. <b>Learn more.</b>
+                        </p>
+                    </div>
+                    <div class="chat0">
+                        <p class="chat0">Hey haffa
+                            <i>6:40pm</i> </p>
+                    </div>
+                    <div class="chat1">
+                        <p class="chat1">I dey boss
+                            <i>6:40pm</i> </p>
+                    </div>
+                    <div class="chat0">
+                        <p class="chat0">Have you finish your project
+                            <i>6:46pm</i> </p>
+                    </div>
+                    <div class="chat1">
+                        <p class="chat1">No, I'm having problem with react
+                            <i>6:46pm</i> </p>
+                    </div>
+                    <div class="chat0">
+                        <p class="chat0">Whats the matter
+                            <i>6:48pm</i> </p>
+                    </div>
+                    <div class="chat1">
+                        <p class="chat1">Nothing much, I've solved it, it's just a little problem with react-router-dom
+                            <i>6:55pm</i> </p>
+                    </div>
+                    <div class="chat0" id="lastmsg">
+                        <p class="chat0">Ok nah
+                            <i>7:00pm</i> </p>
+                    </div>
+                </main>
+                <footer class="msginput">
+                    <input type="text" id="input">
+                    <button id="send">Send</button>
+                </footer>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
