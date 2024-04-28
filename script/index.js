@@ -267,7 +267,7 @@ document.getElementById("no").addEventListener("click" , ()=>{
                         <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+    <i class="actionToggle fa-solid fa-bars"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -301,7 +301,7 @@ document.getElementById("tina").addEventListener("click" , ()=>{
         <img src="images/IMG2.JPG" alt="">
         <div>
             <h1 class="name">Tina</h1>
-            <p class="txt">last seen 15mins ago</p>
+            <p class="txt">last seen 15mins</p>
         </div>
     </div>
     <div class="action">
@@ -310,7 +310,7 @@ document.getElementById("tina").addEventListener("click" , ()=>{
                         <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        
+        <i class="actionToggle fa-solid fa-bars"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>

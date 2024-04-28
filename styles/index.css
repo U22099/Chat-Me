@@ -272,6 +272,7 @@ body{
     flex-direction: column;
     justify-content: start;
     height: 93%;
+    width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
     background: var(--theme);
@@ -308,7 +309,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 100%
+    width: 100%;
 }
 .container > .content > .right-container > main > div > .chat0{
     display: flex;
@@ -332,7 +333,7 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 100%
+    width: 100%;
 }
 .container > .content > .right-container > main > div > .chat1{
     display: flex;
