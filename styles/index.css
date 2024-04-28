@@ -173,8 +173,7 @@ body{
     margin-left: 20px;
 }
 .container > .content > .right-container > header > .info > div > h1,
-.container > .content > .right-container > header > .info > div > p,
-.container > .content > .right-container > header > .action > i{
+.container > .content > .right-container > header > .info > div > p{
     margin: 0px
 }
 .container > .content > .right-container > header > .info{
