@@ -118,7 +118,7 @@ document.getElementById("abd").addEventListener("click" , ()=>{
             <i>2:48pm</i> </p>
     </div>
     <div class="chat1">
-        <p class="chat1">Here's the link <a style="overflow-wrap: anywhere;"href="https://u22099.github.io/ChatMe">https://u22099.github.io/ChatMe</a>
+        <p class="chat1">Here's the link <a style="overflow-wrap: anywhere;"href="https://u22099.github.io/Chat-Me">https://u22099.github.io/Chat-Me</a>
             <i>2:55pm</i> </p>
     </div>
     <div class="chat0" id="lastmsg">
@@ -476,6 +476,7 @@ function render(){
         let hour = now.getHours();
         let mins = now.getMinutes().toString().padStart(2, "0");
         hour = hour > 12 ? hour-12 : hour;
+        hour = hour === 0 ? 12 : hour;
         let meridian = hour > 12 ? "AM" : "PM"
         let time = hour.toString() + ":" + mins + meridian
         i.innerText = time;
