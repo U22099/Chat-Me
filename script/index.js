@@ -11,11 +11,11 @@ document.getElementById("cli").addEventListener("click", ()=>{
     </div>
     <div class="action">
         <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+        <i class=" fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -78,11 +78,11 @@ document.getElementById("abd").addEventListener("click" , ()=>{
     </div>
     <div class="action">
         <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+        <i class=" fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -145,11 +145,11 @@ document.getElementById("cain").addEventListener("click" , ()=>{
     </div>
     <div class="action">
         <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+        <i class=" fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -212,11 +212,11 @@ document.getElementById("bs").addEventListener("click" , ()=>{
     </div>
     <div class="action">
         <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+        <i class=" fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -263,11 +263,11 @@ document.getElementById("no").addEventListener("click" , ()=>{
     </div>
     <div class="action">
         <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-    <i class="actionToggle fa-solid fa-bars"></i>
+    <i class="fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -306,11 +306,11 @@ document.getElementById("tina").addEventListener("click" , ()=>{
     </div>
     <div class="action">
         <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-circle-half-stroke mode"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+        <i class=" fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
@@ -409,7 +409,7 @@ document.getElementById("noah").addEventListener("click" , ()=>{
         <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-        <i class="actionToggle fa-solid fa-bars"></i>
+        <i class=" fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
