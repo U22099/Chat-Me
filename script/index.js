@@ -232,11 +232,11 @@ document.getElementById("bs").addEventListener("click" , ()=>{
         </p>
     </div>
     <div class="chat0">
-        <p class="chat1">Hey bro
+        <p class="chat0">Hey bro
             <i>2:00pm</i> </p>
     </div>
     <div class="chat0">
-        <p class="chat1">haffa
+        <p class="chat0">haffa
             <i>2:00pm</i> </p>
     </div>
     <div class="chat1" id="lastmsg">
