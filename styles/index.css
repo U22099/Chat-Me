@@ -313,7 +313,7 @@ body{
 .container > .content > .right-container > main > div > .chat0{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: start;
     background: var(--primary-color);
     border-radius: 10px 10px 10px 0px;
@@ -326,7 +326,7 @@ body{
     font-style: normal;
     font-weight: 300;
     font-size: 0.9em;
-    align-self: end;
+    align-self: flex-end;
 }
 .container > .content > .right-container > main > .chat1{
     display: flex;
