@@ -306,7 +306,7 @@ body{
 }
 .container > .content > .right-container > main > .chat0{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
 }
@@ -330,7 +330,7 @@ body{
 }
 .container > .content > .right-container > main > .chat1{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
 }
