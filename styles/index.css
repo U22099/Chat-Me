@@ -323,7 +323,7 @@ body{
     font-size: 1.2em;
     width: 40%;
 }
-.container > .content > .right-container > main > div > .chat0> i{
+.container > .content > .right-container > main > div > .chat0 > i{
     font-style: normal;
     font-weight: 300;
     font-size: 0.9em;
@@ -416,11 +416,14 @@ body{
     .container > .content > .right-container > main > .encMsg  > p{
         width: 70%;
     }
-    .container > .content > .right-container > main > .chat0 > p{
+    .container > .content > .right-container > main {
+        width: 95vw;
+    }
+    .container > .content > .right-container > main > div > .chat0{
         font-size: .8em;
         width: 70%;
     }
-    .container > .content > .right-container > main > .chat1 > p{
+    .container > .content > .right-container > main > div > .chat1{
         font-size: .8em;
         width: 70%;
     }

@@ -267,7 +267,7 @@ document.getElementById("no").addEventListener("click" , ()=>{
         <i class="fa-solid fa-circle-half-stroke mode"></i>
     </div>
     <div class="action-small">
-    <i class="fa-solid fa-bars actionToggle"></i>
+        <i class="fa-solid fa-bars actionToggle"></i>
         <div class="action" id="action">
             <h2>Call</h2>
             <h2>Video Call</h2>
